@@ -1,0 +1,214 @@
+body{
+    /* background-color:rgba(13, 0, 255, 0.861); */
+    margin: 0%;
+    background-image: url('./Img/black.jpg');
+    background-position: center;
+ 
+}
+.main {
+    height: 100vh;
+    display: flex;
+    margin: 0%;
+    background-color: rgba(0, 23, 151, 0.793);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    padding-bottom: 0px;
+
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: Century Gothic;
+}
+.para-wrap {
+    width: 50%;
+}
+#para {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: Century Gothic;
+
+    width: 100%;
+}
+.verified {
+    margin: 0px auto;
+    display: flex;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border: none;
+    padding: 14px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.877);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
+}
+
+.verified:hover {
+    transition: 0.8S;
+    /* box-shadow: 1px 1px 5px rgb(18, 1, 114); */
+    color: white;
+    background-color: rgba(43, 255, 0, 0.63);
+}
+
+
+
+
+.gr-c {
+    color: rgb(43, 255, 0);
+}
+
+.resend {
+    margin: 0px auto;
+    display: flex;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    border: none;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.644);
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 10px;
+   
+}
+
+.resend:hover {
+    box-shadow: 1px 1px 5px black;
+    color: rgba(255, 255, 255, 0.692);
+    /* background-color: rgb(34, 0, 228); */
+    
+}
+#not-ver {
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    background-color:rgba(255, 255, 255, 0.238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+
+
+
+#email-gif {
+    width: 200px;
+    margin-bottom: -50px;
+}
+
+
+@media (min-width: 270px) and (max-width: 425px) {
+
+    h1 {
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        padding-bottom: 0%;
+
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-family: Century Gothic;
+    }
+    .para-wrap {
+        width: 85%;
+    }
+    #para {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        font-family: Century Gothic;
+        width: 100%;
+    }
+    .verified {
+        margin: 0px auto;
+        display: flex;
+        margin: 7px;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        border: none;
+        padding: 10px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.877);
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+        border-bottom: 1px solid white;
+    }
+    
+    
+.verified:hover {
+    transition: 0.8S;
+    /* box-shadow: 1px 1px 5px rgb(18, 1, 114); */
+    color: white;
+    background-color: rgba(43, 255, 0, 0.63);
+}
+
+
+    
+    
+    
+    
+    .resend {
+        margin: 0px auto;
+        display: flex;
+        margin: 7px;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        border: none;
+        padding: 5px;
+        color: rgba(0, 0, 0, 0.644);
+        border-radius: 5px;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 10px;
+       
+    }
+    
+    .resend:hover {
+        box-shadow: 1px 1px 5px black;
+        color: rgba(255, 255, 255, 0.692);
+        background-color: rgba(34, 0, 228, 0.575);
+        
+    }
+    #not-ver {
+        color: black;
+        padding: 10px;
+        border-radius: 4px;
+        background-color:rgba(255, 255, 255, 0.238);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    
+    }
+    
+    
+    
+    
+    #email-gif {
+        width: 200px;
+        margin-bottom: -50px;
+    }
+
+
+
+}
